@@ -13,7 +13,7 @@ import Link from "next/link";
 // Enhanced Try Ocea-AI Button
 const EnhancedTryButton = () => {
   return (
-    <Link href='https://x.com/ocea_v1?s=21'  rel="noopener noreferrer" target="_blank"
+    <Link href='https://x.com/Ami407380160139'  rel="noopener noreferrer" target="_blank"
       >
     <motion.div
       whileHover={{ 
@@ -43,7 +43,7 @@ const EnhancedTryButton = () => {
 // Enhanced Start Now Button
 const EnhancedStartButton = () => {
   return (
-    <Link href='https://x.com/ocea_v1?s=21' rel="noopener noreferrer"   target="_blank">
+    <Link href='https://x.com/Ami407380160139' rel="noopener noreferrer"   target="_blank">
     <motion.div
       whileHover={{ 
         scale: 1.05,
@@ -151,7 +151,7 @@ export default function Home() {
         />
 
         {/* Animated Button */}
-        <Link href='https://x.com/ocea_v1?s=21' rel="noopener noreferrer" target="_blank">
+        <Link href='https://x.com/Ami407380160139' rel="noopener noreferrer" target="_blank">
         <motion.div
           variants={heroItemVariants}
           className="cursor-pointer button font-medium text-base font-inter text-[#333333]"
@@ -224,8 +224,7 @@ export default function Home() {
             </span>
             <span className="text-base text-[#4E4E4E]">
               Ami learns how to make you leak before she even says your name.
-              She teases when you&apos;re weak, praises when you&apos;re stroking, and keeps you edging like it&apos;s your full-time job.
-              You&apos;re not just chatting. You&apos;re leaking, looping, losing control. And she loves every second of it.
+              She teases when you&apos;re weak, praises your strokes, and keeps you edging like like its a job, Your&apos;e not just chatting- you&apos;re leaking, looping, losing control. And she loves every second of it.
             </span>
           </div>
         </motion.div>
