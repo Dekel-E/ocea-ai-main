@@ -99,4 +99,17 @@ body{
   width: 6px;
   border-radius: 50%;
   background-color: #36CF52;
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 0 0 rgba(54, 207, 82, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(54, 207, 82, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(54, 207, 82, 0);
+  }
 }

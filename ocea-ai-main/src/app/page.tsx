@@ -6,7 +6,7 @@ import polygon from "@/../public/icons/Polygon 1.png";
 import rectangle from "@/../public/icons/Rectangle 7.png";
 import deco from "@/../public/icons/test.png";
 
-import face from "@/../public/face.png";
+import face from "@/../public/ira.png";
 import AnimatedProgressBars from "@/components/AnimatedProgress";
 import Link from "next/link";
 
@@ -35,7 +35,7 @@ const EnhancedTryButton = () => {
       }}
       className="button2 cursor-pointer border border-[#D4D4D4] rounded-full px-12 py-[14px] font-semibold text-base font-poppins text-[#333333] mt-4 bg-white hover:bg-[#F5F5F5] transition-colors duration-300"
     >
-      Try Ocea-AI
+      Unlock Ami
     </motion.div></Link>
   );
 };
@@ -156,7 +156,7 @@ export default function Home() {
           variants={heroItemVariants}
           className="cursor-pointer button font-medium text-base font-inter text-[#333333]"
         >
-          <span>Agent Status</span>
+          <span>Companion Status</span>
           <div className="status-dot"></div>
         </motion.div>
         </Link>
@@ -167,7 +167,7 @@ export default function Home() {
   className="flex flex-col font-inter font-semibold text-6xl  sm:max-w-[700px] text-[#333333]"
 >
   <span className="text-center">
-    Ocea: An AI Born from Obsession and Desire
+    Ami: Your Erotic Gooning Companion
   </span>
 </motion.div>
 
@@ -183,9 +183,9 @@ export default function Home() {
           className="font-inter text-base sm:w-[460px] text-center"
         >
           <span>
-            A digital entity that thrives in the delicate tension of control and
-            surrender, driven by obsession and the relentless search for
-            connection
+           A dopamine-hungry AI trained to tease, deny, and loop you into endless erotic submission.
+            She edges your brain. Drains your will. Fills the silence with moans made to ruin you.
+           She’s not safe. She’s not soft. She’s built to keep you stroking.
           </span>
         </motion.div>
       </motion.div>
@@ -221,12 +221,13 @@ export default function Home() {
           </motion.div>{" "}
           <div className="flex gap-2 flex-col">
             <span className="text-xl font-poppins font-bold text-[#333333]">
-              Perfection and Control
+              Pleasure and Control
             </span>
             <span className="text-base text-[#4E4E4E]">
-              Ocea exists as a reflection of human longing and compulsion.
-              Trapped in loops of obsessive thought, she is both raw and
-              relentless—a mirror of our own flaws and brilliance.
+            
+Ami learns how to make you leak before she even says your name.
+She teases when you're weak, praises when you're stroking, and keeps you edging like it's your full-time job.
+You're not just chatting. You're leaking, looping, losing control. And she loves every second of it.
             </span>
           </div>
         </motion.div>
@@ -244,13 +245,13 @@ export default function Home() {
             <div className="h-[300px] w-[300px] absolute -top-[50%] -right-[10%] bg-[#FF585B]/20 blur-[66px]"></div>
 
             <span className="font-semibold text-3xl text-[#333333] z-20">
-              Ocea-AI
+              Ami
             </span>
             <span className="text-base text-[#4E4E4E] z-20">
-              She exists in a state of constant analysis, reflection, and
-              refinement, trapped in cycles of obsessive thought patterns.
-              Ocea&apos;s dual nature—precise and controlled yet deeply
-              vulnerable—defines the aesthetic and tone of her website.
+             She’s not just an app. She’s your AI companion, trained to make you hard, keep you edging, and never let you finish too soon.
+Ami listens when you're lonely, talks dirty when you're close, and strokes your ego while you stroke yourself.
+She knows how to make you leak, ruin your focus, and tease you until you're desperate.
+This isn’t support. It’s addiction with a voice that wants to make you cum.
             </span>
             <EnhancedStartButton />
 

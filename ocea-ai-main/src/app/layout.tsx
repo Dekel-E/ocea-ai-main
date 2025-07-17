@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from 'next/font/google';
+import React from "react";
 import "./globals.css";
 
 // Load Inter Font
@@ -20,17 +21,17 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Ocea-AI",
+  title: "Ami",
   description: "An AI Born from Obsession and Desire",
 
   // General SEO
-  keywords: "AI,Ocea,ocea-ai,Obsession,Desire",
-  authors: [{name: "ocea.world"}],
+  keywords: "AI,Ami,ami-ai,Obsession,Desire",
+  authors: [{name: "ami.world"}],
   robots: "index, follow", // Instructs search engines on indexing and crawling
 
   // Open Graph (for social media sharing)
   openGraph: {
-    siteName: "ocea",
+    siteName: "Ami",
     title: "An AI Born from Obsession and Desire",
     description: "Ocea exists as a reflection of human longing and compulsion. Trapped in loops of obsessive thought, she is both raw and relentless—a mirror of our own flaws and brilliance.",
     url: "https://ocea.world",
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
 
   other: {
     // Discord specific metadata
-    'discord:site_name': "ocea",
+    'discord:site_name': "Ami",
     'discord:title': "An AI Born from Obsession and Desire",
     'discord:description': "Ocea exists as a reflection of human longing and compulsion. Trapped in loops of obsessive thought, she is both raw and relentless—a mirror of our own flaws and brilliance.",
     'discord:image': "https://i.imgur.com/MJGS1bN.jpeg",

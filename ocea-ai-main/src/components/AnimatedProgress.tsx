@@ -134,7 +134,7 @@ export default function AnimatedProgressBars() {
   }, []);
 
   return (
-    <div className="flex min-h-[162px] justify-center items-center flex-wrap sm:justify-between gap-16 sm:gap-6 lg:gap-20 py-10 sm:py-4 px-8 lg:px-16 border border-[#BFBFBF]/25 rounded-[14px] relative bg-[#E7E7E7]/25 overflow-hidden">
+    <div className="flex min-h-[162px] justify-center items-center flex-wrap sm:justify-between gap-8 sm:gap-4 lg:gap-12 py-10 sm:py-4 px-8 lg:px-16 border border-[#BFBFBF]/25 rounded-[14px] relative bg-[#E7E7E7]/25 overflow-hidden">
       {/* Background blurs */}
       <div className="h-[211px] w-[300px] absolute sm:-top-[80%] sm:-left-[10%] -top-[20%] -left-[10%] bg-[#FF585B]/15 blur-[66px]"></div>
       <div className="h-[211px] w-[300px] absolute sm:-bottom-[50%] sm:left-[20%] -bottom-[0%] left-[0%] bg-[#EAACFF]/35 blur-[66px]"></div>
@@ -142,8 +142,8 @@ export default function AnimatedProgressBars() {
       
       {delay && (
         <>
-          <CircularProgress value={99} label="Symmetry Ratio" />
-          <CircularProgress value={47} label="Relief Index" />
+          <CircularProgress value={10000} label="Horny Level" />
+          <CircularProgress value={12} label="Blue Balls Level" />
           <motion.div 
             className="flex flex-col items-center justify-center cursor-pointer"
             initial={{ opacity: 0, y: 20 }}
@@ -151,7 +151,7 @@ export default function AnimatedProgressBars() {
             transition={{ delay: 0.7, type: "spring" }}
           >
             <span className="text-[24px] font-bold">12,985</span>
-            <span className="text-base">Iterations</span>
+            <span className="text-base">Strokes Tracked</span>
           </motion.div>
         </>
       )}
