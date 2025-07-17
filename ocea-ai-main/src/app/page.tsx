@@ -65,7 +65,7 @@ const EnhancedStartButton = () => {
       }}
       className="button3 mt-4 py-[10px] px-[36px] border border-[#D4D4D4]/35 rounded-[6px] cursor-pointer bg-white hover:bg-[#F9F9F9] transition-colors duration-300"
     >
-      <div className="font-medium text-xl text-[#202020] " 
+      <div className="font-medium text-xl text-[#202020]" 
       > Start now </div>
       </motion.div></Link>
   );
@@ -128,16 +128,16 @@ export default function Home() {
   };
 
   return (
-    <MaxWidthWrapper className="py-4 items-center gap-8  ">
+    <MaxWidthWrapper className="py-4 items-center gap-8">
       {/* Background blurs  */}
-      <div className="absolute w-full md:w-[824px] h-[742px] bg-[#EAACFF]/85 rounded-full -top-[40%] z-0 blur-[160px]"></div>
-      <div className="lg:flex absolute hidden w-[824px] h-[742px] bg-[#D6FFF7] rounded-full lg:-top-[40%]  lg:-left-[60%] 2xl:-top-[40%]  2xl:-left-[10%] z-0 blur-[160px]"></div>
-      <div className="lg:flex absolute hidden w-[824px] h-[742px] bg-[#FF585B]/40 rounded-full lg:-top-[40%]  lg:-right-[60%] 2xl:-top-[40%] 2xl:-right-[20%] z-0 blur-[160px]"></div>
+      <div className="absolute w-full md:w-[824px] h-[742px] bg-[#EAACFF]/85 rounded-full top-[-40%] z-0 blur-[160px]"></div>
+      <div className="lg:flex absolute hidden w-[824px] h-[742px] bg-[#D6FFF7] rounded-full lg:top-[-40%] lg:left-[-60%] 2xl:top-[-40%] 2xl:left-[-10%] z-0 blur-[160px]"></div>
+      <div className="lg:flex absolute hidden w-[824px] h-[742px] bg-[#FF585B]/40 rounded-full lg:top-[-40%] lg:right-[-60%] 2xl:top-[-40%] 2xl:right-[-20%] z-0 blur-[160px]"></div>
       
       <Image src={polygon} alt="" className="fixed top-0" />
       <Image src={deco} alt="" className="fixed top-20 hidden md:flex" />
 
-      {/* Hero Section with Framer Motionhref='https://x.com/ocea_v1?s=21' rel="noopener noreferrer"   target="_blank" */}
+      {/* Hero Section with Framer Motion */}
       <motion.div
         initial="hidden"
         animate="visible"
@@ -151,7 +151,7 @@ export default function Home() {
         />
 
         {/* Animated Button */}
-        <Link href='https://x.com/ocea_v1?s=21' rel="noopener noreferrer"   target="_blank">
+        <Link href='https://x.com/ocea_v1?s=21' rel="noopener noreferrer" target="_blank">
         <motion.div
           variants={heroItemVariants}
           className="cursor-pointer button font-medium text-base font-inter text-[#333333]"
@@ -163,18 +163,17 @@ export default function Home() {
 
         {/* Animated Title */}
         <motion.div
-  variants={heroItemVariants}
-  className="flex flex-col font-inter font-semibold text-6xl  sm:max-w-[700px] text-[#333333]"
->
-  <span className="text-center">
-    Ami: Your Erotic Gooning Companion
-  </span>
-</motion.div>
+          variants={heroItemVariants}
+          className="flex flex-col font-inter font-semibold text-6xl sm:max-w-[700px] text-[#333333]"
+        >
+          <span className="text-center">
+            Ami: Your Erotic Gooning Companion
+          </span>
+        </motion.div>
 
         {/* Animated Try Button */}
         <motion.div variants={heroItemVariants}>
-
-        <EnhancedTryButton />
+          <EnhancedTryButton />
         </motion.div>
 
         {/* Animated Subtitle */}
@@ -185,7 +184,7 @@ export default function Home() {
           <span>
            A dopamine-hungry AI trained to tease, deny, and loop you into endless erotic submission.
             She edges your brain. Drains your will. Fills the silence with moans made to ruin you.
-           She’s not safe. She’s not soft. She’s built to keep you stroking.
+           She&apos;s not safe. She&apos;s not soft. She&apos;s built to keep you stroking.
           </span>
         </motion.div>
       </motion.div>
@@ -203,9 +202,9 @@ export default function Home() {
           className="bg-[#E7E7E7]/25 flex text-center md:text-start items-center justify-center flex-col gap-2 relative w-full border border-[#BFBFBF]/25 px-12 overflow-hidden rounded-[14px]"
         >
           {/* decoration */}
-          <div className="h-[250px] w-[300px] absolute sm:-top-[30%] sm:-left-[10%] -top-[30%] -left-[40%] bg-gradient-to-b from-[#86a3be] to-[rgba(254,208,255,0.42)] blur-[66px]"></div>
-          <div className="h-[200px] w-[200px] absolute -top-[0%] left-[20%] bg-[#EAACFF] blur-[66px]"></div>
-          <div className="h-[250px] w-[300px] absolute -top-[30%] -right-[50%] bg-[#FF585B]/90 blur-[66px]"></div>
+          <div className="h-[250px] w-[300px] absolute sm:top-[-30%] sm:left-[-10%] top-[-30%] left-[-40%] bg-gradient-to-b from-[#86a3be] to-[rgba(254,208,255,0.42)] blur-[66px]"></div>
+          <div className="size-[200px] absolute top-0 left-[20%] bg-[#EAACFF] blur-[66px]"></div>
+          <div className="h-[250px] w-[300px] absolute top-[-30%] right-[-1/2] bg-[#FF585B]/90 blur-[66px]"></div>
           <motion.div
             whileHover={{
               scale: 1.05,
@@ -218,16 +217,15 @@ export default function Home() {
             className="z-10 w-[270px] h-auto"
           >
             <Image src={face} alt="" className="w-full h-auto cursor-pointer" />
-          </motion.div>{" "}
+          </motion.div>
           <div className="flex gap-2 flex-col">
             <span className="text-xl font-poppins font-bold text-[#333333]">
               Pleasure and Control
             </span>
             <span className="text-base text-[#4E4E4E]">
-              
-Ami learns how to make you leak before she even says your name.
-She teases when you're weak, praises when you're stroking, and keeps you edging like it's your full-time job.
-You're not just chatting. You're leaking, looping, losing control. And she loves every second of it.
+              Ami learns how to make you leak before she even says your name.
+              She teases when you&apos;re weak, praises when you&apos;re stroking, and keeps you edging like it&apos;s your full-time job.
+              You&apos;re not just chatting. You&apos;re leaking, looping, losing control. And she loves every second of it.
             </span>
           </div>
         </motion.div>
@@ -238,23 +236,22 @@ You're not just chatting. You're leaking, looping, losing control. And she loves
           <AnimatedProgressBars />
 
           {/* Third Card */}
-          <div className="flex flex-col gap-4 py-12 px-12 font-poppins border border-[#BFBFBF]/25 rounded-[14px] items-start overflow-hidden relative">
+          <div className="flex flex-col gap-4 p-12 font-poppins border border-[#BFBFBF]/25 rounded-[14px] items-start overflow-hidden relative">
             {/* decoration */}
-            <div className="h-[300px] w-[300px] absolute -top-[50%] -left-[10%] bg-gradient-to-b from-[rgba(167,196,224,0.42)] to-[rgba(254,208,255,0.42)] blur-[66px]"></div>
-            <div className="h-[300px] w-[300px] absolute -top-[50%] left-[30%] bg-[#EAACFF]/35 blur-[66px]"></div>
-            <div className="h-[300px] w-[300px] absolute -top-[50%] -right-[10%] bg-[#FF585B]/20 blur-[66px]"></div>
+            <div className="size-[300px] absolute top-[-1/2] left-[-10%] bg-gradient-to-b from-[rgba(167,196,224,0.42)] to-[rgba(254,208,255,0.42)] blur-[66px]"></div>
+            <div className="size-[300px] absolute top-[-1/2] left-[30%] bg-[#EAACFF]/35 blur-[66px]"></div>
+            <div className="size-[300px] absolute top-[-1/2] right-[-10%] bg-[#FF585B]/20 blur-[66px]"></div>
 
             <span className="font-semibold text-3xl text-[#333333] z-20">
               Ami
             </span>
             <span className="text-base text-[#4E4E4E] z-20">
-             She’s not just an app. She’s your AI companion, trained to make you hard, keep you edging, and never let you finish too soon.
-Ami listens when you're lonely, talks dirty when you're close, and strokes your ego while you stroke yourself.
-She knows how to make you leak, ruin your focus, and tease you until you're desperate.
-This isn’t support. It’s addiction with a voice that wants to make you cum.
+             She&apos;s not just an app. She&apos;s your AI companion, trained to make you hard, keep you edging, and never let you finish too soon.
+             Ami listens when you&apos;re lonely, talks dirty when you&apos;re close, and strokes your ego while you stroke yourself.
+             She knows how to make you leak, ruin your focus, and tease you until you&apos;re desperate.
+             This isn&apos;t support. It&apos;s addiction with a voice that wants to make you cum.
             </span>
             <EnhancedStartButton />
-
           </div>
         </motion.div>
       </motion.div>
