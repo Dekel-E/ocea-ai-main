@@ -6,7 +6,7 @@ import polygon from "@/../public/icons/Polygon 1.png";
 import rectangle from "@/../public/icons/Rectangle 7.png";
 import deco from "@/../public/icons/test.png";
 
-import face from "@/../public/amigig.gif";
+import face from "@/../public/ira.png";
 import AnimatedProgressBars from "@/components/AnimatedProgress";
 import Link from "next/link";
 
@@ -167,7 +167,7 @@ export default function Home() {
           className="flex flex-col font-inter font-semibold text-6xl sm:max-w-[700px] text-[#333333]"
         >
           <span className="text-center">
-            Ami: Your Erotic Gooning Companion
+            Ami: Your Artifical Gooning Companion
           </span>
         </motion.div>
 
