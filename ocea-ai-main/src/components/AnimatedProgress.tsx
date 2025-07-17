@@ -143,7 +143,7 @@ export default function AnimatedProgressBars() {
       {delay && (
         <>
           <CircularProgress value={10000} label="Horny Level" />
-          <CircularProgress value={27} label="Blue Balls Level" />
+          <CircularProgress value={47} label="Blue Balls Level" />
           <motion.div 
             className="flex flex-col items-center justify-center cursor-pointer"
             initial={{ opacity: 0, y: 20 }}
