@@ -6,7 +6,7 @@ import polygon from "@/../public/icons/Polygon 1.png";
 import rectangle from "@/../public/icons/Rectangle 7.png";
 import deco from "@/../public/icons/test.png";
 
-import face from "@/../public/ira.png";
+import face from "@/../public/amigig.gif";
 import AnimatedProgressBars from "@/components/AnimatedProgress";
 import Link from "next/link";
 
