@@ -21,30 +21,30 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Ami",
-  description: "An AI Born from Obsession and Desire",
+  title: "Ami - Your Erotic Gooning Companion",
+  description: "A dopamine-hungry AI trained to tease, deny, and loop you into endless erotic submission. She edges your brain, drains your will, and fills the silence with moans made to ruin you.",
 
   // General SEO
-  keywords: "AI,Ami,ami-ai,Obsession,Desire",
-  authors: [{name: "ami.world"}],
+  keywords: "AI companion, erotic AI, gooning, edge control, adult AI, intimate AI, pleasure control",
+  authors: [{name: "Ami"}],
   robots: "index, follow", // Instructs search engines on indexing and crawling
 
   // Open Graph (for social media sharing)
   openGraph: {
     siteName: "Ami",
-    title: "An AI Born from Obsession and Desire",
-    description: "Ocea exists as a reflection of human longing and compulsion. Trapped in loops of obsessive thought, she is both raw and relentless—a mirror of our own flaws and brilliance.",
-    url: "https://ocea.world",
+    title: "Ami - Your Erotic Gooning Companion",
+    description: "A dopamine-hungry AI trained to tease, deny, and loop you into endless erotic submission. She's not safe. She's not soft. She's built to keep you stroking.",
+    url: "https://ami.world",
     type: "website",
-    images: [{ url: "https://i.imgur.com/MJGS1bN.jpeg" }],
+    images: [{ url: "/amigig.gif" }],
   },
 
   other: {
     // Discord specific metadata
     'discord:site_name': "Ami",
-    'discord:title': "An AI Born from Obsession and Desire",
-    'discord:description': "Ocea exists as a reflection of human longing and compulsion. Trapped in loops of obsessive thought, she is both raw and relentless—a mirror of our own flaws and brilliance.",
-    'discord:image': "https://i.imgur.com/MJGS1bN.jpeg",
+    'discord:title': "Ami - Your Erotic Gooning Companion",
+    'discord:description': "A dopamine-hungry AI trained to tease, deny, and loop you into endless erotic submission. She's not safe. She's not soft. She's built to keep you stroking.",
+    'discord:image': "/amigig.gif",
     'discord:card': "summary_large_image",
   },
 
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
 
   // Theme color for browser UI (useful for mobile)
-  themeColor: "#FF931A", // Choose your brand's primary color
+  themeColor: "#EAACFF", // Purple theme matching your design
 
   // Favicon
   icons: {
