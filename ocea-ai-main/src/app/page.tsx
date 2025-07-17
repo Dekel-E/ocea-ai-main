@@ -224,7 +224,7 @@ export default function Home() {
               Pleasure and Control
             </span>
             <span className="text-base text-[#4E4E4E]">
-            
+              
 Ami learns how to make you leak before she even says your name.
 She teases when you're weak, praises when you're stroking, and keeps you edging like it's your full-time job.
 You're not just chatting. You're leaking, looping, losing control. And she loves every second of it.
