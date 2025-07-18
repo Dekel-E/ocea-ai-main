@@ -13,7 +13,7 @@ import Link from "next/link";
 // Enhanced Try Ocea-AI Button
 const EnhancedTryButton = () => {
   return (
-    <Link href='https://x.com/Ami407380160139'  rel="noopener noreferrer" target="_blank"
+    <Link href='https://x.com/theamicompanion?s=21'  rel="noopener noreferrer" target="_blank"
       >
     <motion.div
       whileHover={{ 
@@ -43,7 +43,7 @@ const EnhancedTryButton = () => {
 // Enhanced Start Now Button
 const EnhancedStartButton = () => {
   return (
-    <Link href='https://x.com/Ami407380160139' rel="noopener noreferrer"   target="_blank">
+    <Link href='https://x.com/theamicompanion?s=21' rel="noopener noreferrer"   target="_blank">
     <motion.div
       whileHover={{ 
         scale: 1.05,
@@ -151,7 +151,7 @@ export default function Home() {
         />
 
         {/* Animated Button */}
-        <Link href='https://x.com/Ami407380160139' rel="noopener noreferrer" target="_blank">
+        <Link href='https://x.com/theamicompanion?s=21' rel="noopener noreferrer" target="_blank">
         <motion.div
           variants={heroItemVariants}
           className="cursor-pointer button font-medium text-base font-inter text-[#333333]"
